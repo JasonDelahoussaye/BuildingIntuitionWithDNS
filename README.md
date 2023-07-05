@@ -3,7 +3,7 @@
 </p>
 
 <h1>Building Intuition with DNS</h1>
-This tutorial -----------.<br />
+Welcome to this tutorial on setting up a DNS server! In this tutorial, we will guide you through the process of configuring your own DNS server. By the end of this tutorial, you will have a functional DNS server that can resolve domain names..<br />
 
 
 <h2>Video Demonstration</h2>
@@ -22,35 +22,36 @@ This tutorial -----------.<br />
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+## Introduction and Overview
 
-<h2>Deployment and Configuration Steps</h2>
+In the first part of the tutorial, we will introduce you to the concept of DNS and explain its importance. To get started, let's take a look at the introduction and DNS explanation. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Introduction and DNS Explanation](screenshots/intro_dns.png)
+*Screenshot: 00:00:00,000 to 00:00:35,160*
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Next, we will cover the prerequisites and the setup required for this tutorial. This will ensure that you have everything in place before proceeding with the DNS server setup.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Prerequisites and Setup](screenshots/prerequisites_setup.png)
+*Screenshot: 00:01:18,360 to 00:01:42,240*
+
+## Lab Activities
+
+Now that we have covered the introduction and setup, let's move on to the lab activities. In this section, we will provide you with step-by-step instructions on how to set up and configure your DNS server.
+
+First, let's take a look at the activities and objectives of the lab.
+
+![Lab Activities and Objectives](screenshots/lab_activities.png)
+*Screenshot: 00:01:52,520 to 00:02:02,560*
+
+Next, we will dive into the detailed steps and commands used in the lab. This will give you a clear understanding of the configuration process.
+
+![Steps and Commands](screenshots/steps_commands.png)
+*Screenshot: 00:02:05,160 to 00:02:45,800*
+
+Finally, we will cover the remote desktop connections and logins required for accessing the DNS server.
+
+![Remote Desktop Connections and Logins](screenshots/remote_desktop.png)
+*Screenshot: 00:03:48,880 to 00:04:59,040*
+
+Congratulations! By following the steps in this tutorial, you have successfully set up your own DNS server. You can now resolve domain names and enjoy the benefits of having a local DNS server.
