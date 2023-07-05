@@ -43,6 +43,9 @@ First, let's take a look at DNS A-Records on the server. A-Records are mappings 
 5. Create a DNS A-record on DC-1 for "mainframe" and point it to DC-1's private IP address.
 6. Go back to Client-1 and try to ping "mainframe." You'll see that it works now.
 
+![image](https://github.com/JasonDelahoussaye/BuildingIntuitionWithDNS/assets/106440235/75f4bdec-4518-4e0e-9480-1ce355c3958f)
+
+
 **Local DNS Cache Exercise**
 
 1. Go back to DC-1 and change the record address of "mainframe" to 8.8.8.8.
@@ -51,10 +54,18 @@ First, let's take a look at DNS A-Records on the server. A-Records are mappings 
 4. Flush the DNS cache using the command `ipconfig /flushdns`. Observe that the cache is now empty.
 5. Try to ping "mainframe" again. You'll see that the new record address is now shown.
 
+![image](https://github.com/JasonDelahoussaye/BuildingIntuitionWithDNS/assets/106440235/c1c1002f-3aac-4dfc-b518-ce9da96b578a)
+![image](https://github.com/JasonDelahoussaye/BuildingIntuitionWithDNS/assets/106440235/f90770ef-8fec-45d1-b492-c51c159fad16)
+
+
 **CNAME Record Exercise**
 
 1. Go back to DC-1 and create a CNAME record that points the host "search" to "www.google.com."
 2. Return to Client-1 and attempt to ping "search." Observe the results of the CNAME record.
+
+![image](https://github.com/JasonDelahoussaye/BuildingIntuitionWithDNS/assets/106440235/2532e52e-84d7-4d3a-b9c1-3968ff5f96c9)
+
+
 3. On Client-1, use `nslookup` to query "search" and observe the results of the CNAME record.
 
 By following these steps, you'll develop a better understanding of DNS, A-Records, DNS caching, and CNAME records.
